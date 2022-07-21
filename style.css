@@ -1,0 +1,128 @@
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#day-night{
+    display: flex;
+    border: none;
+    float: right;
+}
+#navbar{
+    justify-content: flex-end;
+}
+#contact-left{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+}
+#contact-line{
+    height: height/1.1;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+#contact-left-links{
+    height: 400px;
+    width: 2px;
+    background-color: green;
+}
+#about{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+#heading--main{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 60px;
+    font-weight: 600;
+    background-image: linear-gradient(to left, #553c9a, #b393d3);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
+.skill-block{
+    padding-right: 60px;
+    justify-content: center;
+    align-items: center;
+}
+#skill-line-html5{
+    width: 130px;
+    height: 5px;
+    background-color: black;
+    margin-top: 20px;
+}
+.skill-block-all{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+.skill-line{
+    background-color: white;
+    border: 2px solid;
+    text-align: center;
+    padding: 5px;
+    height: 70px;
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+body{
+    background-color: white;
+    color: black;
+    padding: 25px;
+    font-size: 25px;
+}
+#edu{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#project-id{
+    line-height: 1.5em;
+    height: 6.5em;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.edu-block-main{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+#edu-left-links{
+    height: 130px;
+    width: 3px;
+    background-color: green;
+    margin-right: 15px;
+}
+.edu-block-heading{
+    padding-bottom: 20px;
+}
+#project-details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.button{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+}
